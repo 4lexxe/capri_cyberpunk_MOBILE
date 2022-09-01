@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-label="Capri Mobile, versión 1.0.0. Compañera cyberpunk para Android">
+  <defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#12303b" stroke-width="1"/></pattern><pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><path d="M0 1h4" stroke="#090c12" stroke-width="1"/></pattern></defs>
+  <path d="M22 2h1176v314l-22 22H2V22Z" fill="#0a0e17" stroke="#53e7f4" stroke-width="2"/>
+  <path d="M24 24h1152v292H24z" fill="url(#grid)" opacity=".6"/>
+  <path d="M42 46h120v6H42zm0 0v53h6V46" fill="#ff315a"/>
+  <path d="m890 58-43 62 50-9-54 86 100-24-35 94 123-152-62 13 44-70-74 24 18-24Z" fill="#ff1657"/>
+  <path d="m897 209 18-32 28-4-46 55 9-20Z" fill="#73ff86"/>
+  <text x="76" y="98" fill="#f0e96e" font-family="monospace" font-size="17" letter-spacing="6">PROJECT CAPRICORN / ANDROID</text>
+  <text x="72" y="192" fill="#eaf9ff" font-family="monospace" font-weight="bold" font-size="100" letter-spacing="12">CAPRI</text>
+  <text x="77" y="231" fill="#53e7f4" font-family="monospace" font-size="24" letter-spacing="6">UNA COMPAÑERA EN TU PANTALLA</text>
+  <path d="M77 255h650" stroke="#354553"/>
+  <text x="77" y="290" fill="#93a6b7" font-family="monospace" font-size="17">ES LATINO · QWEN LOCAL · CHAT DE VOZ · v1.0.0</text>
+  <text x="1052" y="294" fill="#f0e96e" font-family="monospace" font-size="18">100 DP</text>
+  <path d="M0 0h1200v340H0z" fill="url(#scan)" opacity=".22"/>
+</svg>

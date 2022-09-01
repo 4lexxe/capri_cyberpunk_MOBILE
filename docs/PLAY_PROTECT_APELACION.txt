@@ -1,0 +1,29 @@
+Texto para el campo «Additional information to support your appeal».
+Formulario: https://support.google.com/googleplay/android-developer/contact/protectappeals
+
+APK de esta solicitud: Capri-Android-1.0.0-actualizacion.apk
+Paquete: com.capri.companion
+Versión: 1.0.0 (8)
+SHA-256 DEL APK: 7424f8ad017895918cbaeece097913adc5c3a916ecf88acdcf7289a0ed12a985
+
+--- BEGIN TEXT TO PASTE ---
+Please review the Play Protect classification of Capri (com.capri.companion, version 1.0.0, versionCode 8), APK SHA-256 7424f8ad017895918cbaeece097913adc5c3a916ecf88acdcf7289a0ed12a985.
+
+A user trying to install the update APK on a Samsung Galaxy A55 running Android 16 reported the Play Protect block stating that the app can request access to sensitive data and increase the risk of identity theft or financial fraud. Their screenshot shows the update filename prefix; we have not independently read the hash on the phone. The submitted hash identifies our original update artifact.
+
+Capri is an animated companion with optional AI conversation, speech, and screenshot-based contextual comments. The AccessibilityService is used for discrete still screenshots, not financial operations or device automation. Its configuration declares canTakeScreenshot=true, canRetrieveWindowContent=false, canPerformGestures=false, and isAccessibilityTool=false. onAccessibilityEvent does not process events. The app does not declare SMS access or a notification-listener service.
+
+Screenshots are off by default. The user must enable a vision provider/model, accept an in-app disclosure, enable the service in Android Settings, return to Capri, and explicitly start a session. Enabling the service alone does not start screenshots. The disclosure states that the full visible screen, including other apps and notifications, is sent to the chosen AI provider. Screenshots may contain personal information; we do not claim to detect and remove all sensitive content before upload.
+
+During an explicitly started session, one screenshot is requested after leaving Capri and then at three-minute intervals. Manual requests are rate-limited. No video or audio of other apps is recorded. The image is resized to at most 960 pixels and sent as JPEG to the user-configured provider. The app does not persist screenshot files. Optional local activity summaries are off by default, expire after seven days, and can be deleted. The app does not bypass protected surfaces.
+
+The user can stop the session in Capri or its notification, revoke the service in Android Settings, or lock the device. Pending analysis results are invalidated when the session ends. Pausing spoken comments is separate from stopping capture and is disclosed. Microphone use is user-initiated while Capri's activity is visible.
+
+The update artifact uses the previous signing certificate. A separate APK with a production signing lineage also exists; it has a different file hash and is not represented as the same artifact by this submission. Local emulator tests are not represented as Google approval or physical-device Play Protect validation. We request review of this specific APK's classification.
+--- END TEXT TO PASTE ---
+
+Pendiente antes de enviar:
+- Completar el correo de contacto y el nombre del desarrollador (sin inventarlos).
+- Elegir el APK exacto, subirlo a VirusTotal y comprobar que su SHA-256 coincide con el campo indicado. Esa subida comparte el binario con un tercero.
+- Si se presenta otro APK, usar su hash y un texto que identifique ese archivo. No reutilizar este hash para el instalador con migración ni para la edición completa.
+- No se ha enviado ninguna solicitud ni se promete aprobación. El formulario consultado indica que no se recibirá respuesta y que sus decisiones son finales.

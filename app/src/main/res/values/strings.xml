@@ -1,0 +1,5 @@
+<resources>
+    <string name="screenshot_accessibility_description">Obtiene una captura puntual de la pantalla visible sólo cuando activas una sesión en Entorno. Se envía a tu proveedor de IA al comenzar y cada tres minutos. No graba video ni audio, no lee la estructura de otras apps ni pulsa controles. Puedes detenerlo desde Capri o deshabilitar este servicio aquí.</string>
+    <string name="overlay_greeting">Acá estoy, choom.</string>
+    <string name="overlay_thinking">Un segundo…</string>
+</resources>

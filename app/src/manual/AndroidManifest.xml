@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION" />
+    <application>
+        <service android:name=".context.ScreenshotService" tools:node="remove" />
+        <receiver android:name=".context.StopScreenshotsReceiver" tools:node="remove" />
+        <activity android:name=".context.ManualCaptureActivity" android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:excludeFromRecents="true" android:launchMode="singleTop" />
+        <service android:name=".context.ManualScreenshotService" android:exported="false"
+            android:foregroundServiceType="mediaProjection" />
+    </application>
+</manifest>
